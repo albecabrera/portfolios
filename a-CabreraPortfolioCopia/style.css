@@ -1,0 +1,118 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Fondo claro */
+  padding: 0 150px 0 350px;
+}
+/* Estilos generales */
+.navbar-container {
+  background-color: #f1e7e7; /* Fondo oscuro para la barra de navegación */
+  padding: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 0 150px 0 150px;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-list li {
+  margin-right: 20px;
+}
+
+.navbar-list a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: block;
+  position: relative;
+}
+
+.navbar-list a img {
+  max-width: 30px;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  /* Estilos para pantallas pequeñas (responsive) */
+  .navbar-list {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navbar-list li {
+      margin: 10px 0;
+  }
+}
+.framer-img {
+  width: 550px;
+  height: 550px;
+}
+
+.video {
+  width: 550px;
+  height: 550px;
+}
+
+
+
+
+li:nth-child(1) a {
+  color: orange;
+  /* Cambia el color a naranja al primer elemento de la lista */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-top: 90px;
+  border-radius: 50px;
+}
+
+/* Media query para hacer la página responsiva */
+
+
+.LogoFooter {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 200;
+  list-style-type: none;
+  /* Esta opción permite quitar los puntos de la lista */
+}
