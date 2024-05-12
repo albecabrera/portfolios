@@ -3,7 +3,7 @@ header {
   padding: 0px 15px;
   left: 0px;
   right: 0px;
-  border-bottom: 1px solid #423940;
+  border-bottom: 1px solid #984e88;
   z-index: 11;
 }
 
@@ -88,11 +88,11 @@ header .row {
 .navbar ul li a::before {
   content: "";
   height: 2px;
-  background-color: rgb(236, 241, 250);
+  background-color: rgb(92, 22, 104);
   width: 0%;
   position: absolute;
   right: 0px;
-  bottom: -27px;
+  bottom: -5px;
   cursor: pointer;
   transition: all 0.5s ease;
 }
